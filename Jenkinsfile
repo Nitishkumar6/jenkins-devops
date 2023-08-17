@@ -12,12 +12,7 @@ pipelines{
 			}
 		}
 	}
-	post{
-		always{
-			echo "i am always run"
-		}
-		success{
-			echo "i run when you are successfull"
-		}
-	}
+
+
+
 }
